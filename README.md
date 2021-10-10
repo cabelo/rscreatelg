@@ -26,7 +26,7 @@ Below are the dependencies of this project:
 Clone the repository at desired location:
 
 ``` bash
-# git clone https://github.com/cabelo/isolalert
+# git clone https://github.com/cabelo/rscreatelg
 ```
 
 ### Build the project
@@ -35,13 +35,12 @@ Now execute
 
 
 ``` bash
-$ /usr/bin/c++ -I/opt/intel/inteloneapi/vpl/latest/include  -o isolalert.cpp.o  -c isolalert.cpp
-$ /usr/bin/c++ isolalert.cpp.o -lcurl  /opt/intel/inteloneapi/vpl/latest/lib/libopencv_world.so -o isolalert 
+$ cd rscreatelg
+$ /usr/bin/c++  main.cpp `pkg-config --cflags opencv4` `pkg-config --libs opencv4`  -lrealsense2 -o rscreatelg
+$ ./rscreatelg
 
 ```
 
-
-```
 ### To Do
 
 - [x] Push first commit to GitHub
