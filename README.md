@@ -11,6 +11,52 @@ This software was created for generate video holographic for the Looking Glass h
 ## About the Repository
 This repository is to provide an alpha version of the project for anyone who wants to try it out. Please be aware that this alpha version may contain errors. If you find a bug or have any ideas to improve it, open an issue in this repository with a detailed description. Thanks for your help and have fun mixing your holograms! 
 
+
+## Building 
+
+### Dependencies
+
+Below are the dependencies of this project: 
+
+1. [librealsense](https://github.com/IntelRealSense/librealsense)
+1. [libopencv](https://github.com/opencv/opencv/)
+
+### Clone the project
+
+Clone the repository at desired location:
+
+``` bash
+# git clone https://github.com/cabelo/isolalert
+```
+
+### Build the project
+
+Now execute 
+
+
+``` bash
+$ /usr/bin/c++ -I/opt/intel/inteloneapi/vpl/latest/include  -o isolalert.cpp.o  -c isolalert.cpp
+$ /usr/bin/c++ isolalert.cpp.o -lcurl  /opt/intel/inteloneapi/vpl/latest/lib/libopencv_world.so -o isolalert 
+
+```
+
+
+```
+### To Do
+
+- [x] Push first commit to GitHub
+- [ ] Depth Cleaning
+- [ ] Config resolution
+- [ ] Parameterize file name
+- [ ] Select algorithm of semantic segmantation
+- [ ] Create package .rpm and .deb
+- [ ] Create documantation 
+- [ ] Create HTML page
+
+
 ![](img/pg01.jpg)
 
 ![](img/pg02.jpg)
+
+
+[![Demonstration](http://img.youtube.com/vi/a8YUKWCKe4o/0.jpg)](http://www.youtube.com/watch?v=a8YUKWCKe4o "Video created in Linux to Looking Glass")
