@@ -60,7 +60,7 @@ $ ./rscreatelg
 
 ### The final result
 
-Bellow an example running created in my machine with OpenSUSE Leap 15.3.
+Bellow an example created in my machine with OpenSUSE Leap 15.3.
 
 contact : Alessandro de Oliveira Faria (A.K.A.CABELO) cabelo@opensuse.org
 
