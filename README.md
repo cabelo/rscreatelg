@@ -44,6 +44,7 @@ $ ./rscreatelg
 ### To Do
 
 - [x] Push first commit to GitHub
+- [ ] Better code in c++
 - [ ] Depth Cleaning
 - [ ] Config resolution
 - [ ] Parameterize file name
@@ -51,6 +52,7 @@ $ ./rscreatelg
 - [ ] Create package .rpm and .deb
 - [ ] Create documantation 
 - [ ] Create HTML page
+- [ ] Broadcast via network in real time
 
 
 ![](img/pg01.jpg)
