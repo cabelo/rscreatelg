@@ -18,7 +18,8 @@ This repository is to provide an alpha version of the project for anyone who wan
 
 The firt thing you need is to download and install the Intel® oneAPI Base Toolkit.
 
-You can register, download and information about install it from the following link (Linux version):https://software.intel.com/content/www/us/en/develop/documentation/installation-guide-for-intel-oneapi-toolkits-linux/top.html
+You can register, download and information about install it from the following link (below Linux version):
+https://software.intel.com/content/www/us/en/develop/documentation/installation-guide-for-intel-oneapi-toolkits-linux/top.html
 
 ### Dependencies
 
