@@ -14,6 +14,13 @@ This repository is to provide an alpha version of the project for anyone who wan
 
 ## Building 
 
+### Download Intel® oneAPI Base Toolkit
+
+The firt thing you need is to download and install the Intel® oneAPI Base Toolkit.
+
+You can register, download and information about install it from the following link (Linux version): https://software.intel.com/content/www/us/en/develop/tools/oneapi/download.html#basekit 
+
+
 ### Dependencies
 
 Below are the dependencies of this project: 
@@ -35,8 +42,38 @@ Now execute
 
 
 ``` bash
+$ source /opt/intel/oneapi/setvars.sh 
+ 
+:: initializing oneAPI environment ...
+   bash: BASH_VERSION = 4.4.23(1)-release
+:: advisor -- latest
+:: ccl -- latest
+:: compiler -- latest
+:: dal -- latest
+:: debugger -- latest
+:: dev-utilities -- latest
+:: dnnl -- latest
+:: dpcpp-ct -- latest
+:: dpl -- latest
+:: embree -- latest
+:: intelpython -- latest
+:: ipp -- latest
+:: ippcp -- latest
+:: ipp -- latest
+:: mkl -- latest
+:: mpi -- latest
+:: oidn -- latest
+:: openvkl -- latest
+:: ospray -- latest
+:: ospray_studio -- latest
+:: rkcommon -- latest
+:: rkutil -- latest
+:: tbb -- latest
+:: vpl -- latest
+:: vtune -- latest
+:: oneAPI environment initialized ::
 $ cd rscreatelg
-$ /usr/bin/c++  main.cpp `pkg-config --cflags opencv4` `pkg-config --libs opencv4`  -lrealsense2 -o rscreatelg
+$ dpcpp  main.cpp `pkg-config --cflags opencv4` `pkg-config --libs opencv4`  -lrealsense2 -o rscreatelg
 $ ./rscreatelg
 
 ```
@@ -44,6 +81,7 @@ $ ./rscreatelg
 ### To Do
 
 - [x] Push first commit to GitHub
+- [x] Port build fort DPC++
 - [ ] Better code in c++
 - [ ] Depth Cleaning
 - [ ] Config resolution
