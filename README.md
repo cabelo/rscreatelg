@@ -98,10 +98,10 @@ $ ./rscreatelg
 ![](img/pg02.jpg)
 
 
-### The final result
+### The final result:
 
 Bellow an example created in my machine with OpenSUSE Leap 15.3.
 
-contact : Alessandro de Oliveira Faria (A.K.A.CABELO) cabelo@opensuse.org
+Contact : Alessandro de Oliveira Faria (A.K.A.CABELO) cabelo@opensuse.org
 
 [![Demonstration](http://img.youtube.com/vi/a8YUKWCKe4o/0.jpg)](http://www.youtube.com/watch?v=a8YUKWCKe4o "Video created in Linux to Looking Glass")
