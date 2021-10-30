@@ -82,6 +82,7 @@ $ ./rscreatelg
 
 - [x] Push first commit to GitHub
 - [x] Port build fort DPC++
+- [ ] Add Makefile
 - [ ] Better code in c++
 - [ ] Depth Cleaning
 - [ ] Config resolution
