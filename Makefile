@@ -1,4 +1,4 @@
-iVERSION   = 1.5
+VERSION   = 1.5
 CXX       = dpcpp
 LIBS      = `pkg-config --libs opencv4`  -lrealsense2 
 CXXFLAGS  = `pkg-config --cflags opencv4` 
